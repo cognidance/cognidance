@@ -28,8 +28,8 @@ a data file named '20210604_for_psytoolkit.mat.' In MATLAB, run the
 'behavioral_analysis.m' script (confirming that the file to your data is
 correct).
 
-You should a few figures and plots similar to Zajkowski et al. (2017), but for
-your data. :)
+This will generate some useful figures that are similar to Zajkowski et al. (2017), 
+but for your online-collected data. :)
 
 3. Adapting for your own game size
 
