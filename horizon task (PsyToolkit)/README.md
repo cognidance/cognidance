@@ -1,4 +1,4 @@
-The 'horizon task' is a psychology game that can be used to study human behavior
+The 'horizon task' is a psychology game used to study human behavior
 during the explore-exploit dilemma (Wilson et al., 2014).
 
 A special property of this task is its dissociation of directed and random
