@@ -34,11 +34,14 @@ your data. :)
 3. Adapting for your own game size
 
 To adapt my scripts and add or remove games (instead of 48 or 72), I added the MATLAB
-script 'task_parameters_48GAMES.m.' Running this file in MATLAB will generate
-critical parameters for your task. The protocol from Waltz et al. (2020) and
-Wilson et al. (2014) was used to prepare this script. It de-correlates the
-value and information confound that is problematic in experiments studying
-the explore-exploit dilemma.
+scripts 'task_parameters_48GAMES.m' 'task_parameters_72GAMES.m.' Running these in 
+MATLAB will generate necessary parameters for your task - simply adjust for your 
+preferred number of games in the task. 
+
+The parameter protocol was based on  Waltz et al. (2020) and Wilson et al. (2014). It 
+intent is to de-correlate the value and information confound that is problematic in 
+experiments studying the explore-exploit dilemma. Correlation values of the task are 
+shown by "Figure 1" after running the 'behavioral_analysis.m' script in MATLAB.
 
 References
 
