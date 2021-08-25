@@ -31,7 +31,9 @@ correct).
 You should a few figures and plots similar to Zajkowski et al. (2017), but for
 your data. :)
 
-3. To adapt my scripts and add games (instead of 48 or 72), I added the MATLAB
+3. Adapting for your own game size
+
+To adapt my scripts and add or remove games (instead of 48 or 72), I added the MATLAB
 script 'task_parameters_48GAMES.m.' Running this file in MATLAB will generate
 critical parameters for your task. The protocol from Waltz et al. (2020) and
 Wilson et al. (2014) was used to prepare this script. It de-correlates the
