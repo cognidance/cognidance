@@ -29,19 +29,20 @@ a data file named '20210604_for_psytoolkit.mat.' In MATLAB, run the
 correct).
 
 This will generate some useful figures that are similar to Zajkowski et al. (2017), 
-but for your online-collected data. :)
+but for your online data. :)
 
 3. Adapting for your own game size
 
-To adapt my scripts and add or remove games (instead of 48 or 72), I added the MATLAB
-scripts 'task_parameters_48GAMES.m' 'task_parameters_72GAMES.m.' Running these in 
-MATLAB will generate necessary parameters for your task - simply adjust for your 
+To adapt my scripts and add or remove games (instead of 48 or 72), I included the MATLAB
+scripts 'task_parameters_48GAMES.m' and 'task_parameters_72GAMES.m.' Running these in 
+MATLAB will generate the necessary parameters for your task - simply adjust for your 
 preferred number of games in the task. 
 
-The parameter protocol was based on  Waltz et al. (2020) and Wilson et al. (2014). It 
+The parameter protocol was based on  Waltz et al. (2020) and Wilson et al. (2014). Its 
 intent is to de-correlate the value and information confound that is problematic in 
-experiments studying the explore-exploit dilemma. Correlation values of the task are 
-shown by "Figure 1" after running the 'behavioral_analysis.m' script in MATLAB.
+paradigms testing for the explore-exploit dilemma. Correlation values of these task 
+parameters in your data are shown in "Figure 1" after running the 'behavioral_analysis.m' 
+script in MATLAB.
 
 References
 
